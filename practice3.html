@@ -1,36 +1,61 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <title>
-            Assignment 3
-        </title>
-    </head>
-    <body>
-        <header>
-            <h1>
-                Top 5 Websites Used
-            </h1>
-        </header>
-        <main>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            TRIP FOR VACATION
+        </h1>
+
+    </header>
+    <main>
+        <form>
             <section>
-                <ol>
-                    <li>
-                        <a href="https://www.google.com/" target="_blank">Google</a>
-                    </li>
-                    <li>
-                        <a href="https://facebook.com" target="_blank">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="https://amazon.com" target="_blank">Amazon</a>
-                    </li>
-                    <li>
-                        <a href="https://yahoo.com" target="_blank">Yahoo</a>
-                    </li>
-                    <li>
-                        <a href="https://gmail.com" target="_blank">Gmail</a>
-                    </li>
-                </ol>
-            </section>
-        </main>
-    </body>
+            <label for="studentname">
+                <input type="text" name="Name" id="studentname" placeholder="Name of the Student"><br>
+            </label>
+            <label for="fathername">
+                <input type="text" name="Name" id="fathername" placeholder="Father's Name"> <br>
+            </label>
+            <label for="mobnumber">
+                <input type="number" name="number" id="mobnumber" placeholder="Mobile Number"> <br>
+            </label>
+        </section>
+        <section>
+            <label for="sectionida">
+                <input type="radio" name="section" id="sectionida" class="red"> Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" name="section" id="sectionidb" class="red"> Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" name="section" id="sectionidc" class="red"> Section C <br>
+            </label>
+        </section>
+        <section>
+            <select name="Food" id="canteen"> Add on Meals
+                <option value="no-option">Select your meal</option>
+                <option value="hamburger">Hamburge</option>
+                <option value="sandwich">Sandwich</option>
+                <option value="chicken">Chicken</option>
+                <option value="mutton">Mutton</option>
+                <option value="rolls">Rolls</option><br>
+            </select><br>
+        </section>
+        <section>
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Type your full address"></textarea><br>
+            <label for="formsubmit">
+                <input type="submit" name="formsubmit" id="formsubmit">
+            </label>
+        </section>
+    </main>
+</body>
+
 </html>
